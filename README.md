@@ -7,7 +7,7 @@
 
 - [youtube.com](routes/youtube-ipv4.bat)
 - [instagram.com](routes/facebook-ipv4.bat)
-- [x.com](routes/x-ipv4.bat)
+- [x.com](routes/x-ipv4.bat) - NEW!
 - [chatgpt.com](routes/chatgpt-ipv4.bat)
 - [medium.com](routes/medium-ipv4.bat)
 - [rutracker](routes/rutracker-ipv4.bat)
