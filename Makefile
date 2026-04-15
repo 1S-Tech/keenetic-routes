@@ -21,6 +21,10 @@ gen-youtube:
 gen-facebook:
 	bin/antifilter vendor/ipranges/facebook/ipv4_merged.txt routes/facebook-ipv4.bat
 
+# make build gen-x
+gen-x:
+	bin/antifilter vendor/ipranges/twitter/ipv4_merged.txt routes/x-ipv4.bat
+
 # make build gen-chatgpt
 gen-chatgpt:
 	bin/antifilter cidr/chatgpt_cidr4.txt routes/chatgpt-ipv4.bat
@@ -45,6 +49,7 @@ gen-claude:
 # make build gen-all slice-routes
 gen-all: gen-youtube
 gen-all: gen-facebook
+gen-all: gen-x
 gen-all: gen-chatgpt
 gen-all: gen-medium
 gen-all: gen-rutracker
