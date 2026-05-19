@@ -1,0 +1,3 @@
+# AS33191 NOTION-WEB (Notion Labs) — IPv4 по RIPEstat announced-prefixes
+# Часть трафика notion.so может идти через CDN; при проблемах добавьте маршруты cloudflare
+208.103.161.0/24

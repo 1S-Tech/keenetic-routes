@@ -37,6 +37,10 @@ gen-chatgpt:
 gen-medium:
 	bin/antifilter cidr/medium_cidr4.txt routes/medium-ipv4.bat
 
+# make build gen-notion
+gen-notion:
+	bin/antifilter cidr/notion_cidr4.txt routes/notion-ipv4.bat
+
 # make build gen-rutracker
 gen-rutracker:
 	bin/antifilter cidr/rutracker_cidr4.txt routes/rutracker-ipv4.bat
@@ -57,6 +61,7 @@ gen-all: gen-x
 gen-all: gen-gemini
 gen-all: gen-chatgpt
 gen-all: gen-medium
+gen-all: gen-notion
 gen-all: gen-rutracker
 gen-all: gen-cloudflare
 gen-all: gen-telegram
